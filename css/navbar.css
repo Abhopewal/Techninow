@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap');
+*{
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+body{
+    background-color: aliceblue;
+}
+.wrapper{
+    position: absolute;
+    top:35%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.wrapper .navbar{
+    width: 420px;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+.wrapper .navbar a{
+    color: #644def;
+
+}
+.wrapper .navbar .left ul
+.wrapper .navbar .right ul li a{
+    display: flex;
+    height: 40px;
+    align-items: center;
+}
+.wrapper .navbar .left ul li
+.wrapper .navbar .right img{
+    margin: 0 10px;
+}
+.wrapper .navbar .right a{
+    text-align: right;
+}
+.wrapper .navbar .right a span{
+    font-size: 10px;
+}

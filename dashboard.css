@@ -1,0 +1,118 @@
+.bg-custom-1 {
+    background-color: #85144b;
+  }
+  
+  .bg-custom-2 {
+  background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+  }
+  .navbar-nav{
+      margin-right: 15px;
+      
+  }
+  .navbar-nav span{
+      font-size: 20px;
+  }
+  .dropdown-menu p{
+      margin-left: 15px;
+  }
+ .dropdown-menu  a:hover{
+     background: #b6854d;
+     border-radius: 100%;
+ }
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+.data{
+    
+    background: url(images/desk.jpg);
+    height: 100vh;
+    
+}
+
+.nav ul li{
+    line-height: 80px;
+    margin: 0 10px;
+    
+}
+.side-menu{
+    position:absolute;
+  
+    width: 250px;
+    height: 100%;
+    margin-top: 5px;
+
+}
+
+.side-menu center img{
+    height: 400px;
+    width:100px;
+    border-radius: 50%;
+    margin-top: 30px;
+    border: 3px solid white;
+}
+
+.side-menu center h2{
+    color: white;
+
+}
+.side-menu a{
+    display: block;
+    line-height: 60px;
+    transition: .1s;
+    color: white;
+}
+.side-menu a:hover{
+    background: rgb(177, 86, 44);
+    padding-left: 20px;
+    border-radius: 100%;
+
+}
+.side-menu span{
+    font-size: 20px;
+    margin-left: 10px;
+    color: white;
+}
+.side-menu{
+    font-size: 20px;
+    margin-left: 20px;
+    color:rgb(177,86,44);
+}
+.side-menu p{
+    margin-left: 25px;
+}
+
+.side-menu #pan{
+    text-align: center;
+}
+
+@media (max-width:850px){
+    .side-menu a span{
+     
+    }
+    .side-menu center{
+     
+    }
+    .side-menu p{
+        display: none;
+    }
+    .side-menu{
+        width:100%;
+    }
+    .side-menu a {
+        display: block;
+        line-height: 80px;
+        text-align: center;
+        margin-left: 0;
+        font-size: 35px;
+    }
+    .data{
+        margin-left: 0;
+    }
+   
+}
+
